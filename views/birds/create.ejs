@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    
+<% include ../partials/header %>
+<body>
+
+    <% include ../partials/navbar %>
+    <form method="POST" action="/birds/create">
+        <input class="form-control mt-3" type="text" name="species" placeholder="Species" />
+        <input class="form-control mt-3" type="text" name="nickname" placeholder="Nickname" />
+        <input class="form-control mt-3" type="text" name="status" placeholder="Status" />
+        <input class="btn btn-primary mt-3" type="submit" value="create" />
+    </form>
+
+    
+
+</body>
+</html>
